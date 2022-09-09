@@ -2,6 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - Alphabetical characters printing
+ * Return: Always (success)
+ */
 int main(void)
 {
 	int n;
