@@ -16,4 +16,3 @@ void print_to_98(int a);
 void print_times_table(int a);
 
 #endif
-root@3812cc5bc15f:/alx-low_level_programming/0x02-functions_nested_loops#
