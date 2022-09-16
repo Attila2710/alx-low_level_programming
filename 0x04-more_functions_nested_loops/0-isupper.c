@@ -3,7 +3,6 @@
 /**
  * _isupper - Checks if a character is uppercase or not
  * @c: character to be tested
- *
  * Return: 1 whether it is, 0 otherwhise
  */
 
