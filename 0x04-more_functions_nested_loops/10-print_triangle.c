@@ -1,15 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_triangle - print a triangle
- * @size: the size of the triangle
- * Return: Nothing
+ * print_triangle - Prints a triangle of squares according parameter
+ * @size: The size of the squares triangle
+ *
+ * Return: empty
  */
 
 void print_triangle(int size)
 {
-	int i, j, s;
+	int x, y, z;
 
 	if (size <= 0)
 	{
@@ -17,17 +17,18 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (i = 0; i < size; i++)
+		for (x = 0; x < size; x++)
 		{
-			for (j = 0; j < size; j++)
+			for (y = size - x; y > 1; y--)
 			{
-				s = size - i - 1;
-				if (j < s)
-					_putchar(' ');
-				else
-					_putchar(35);
+				_putchar(32);
 			}
-			_putchar('\n')
+			for (z = 0; z <= x; z++)
+			{
+				_putchar(35);
+			}
+
+			_putchar('\n');
 		}
 	}
 }
